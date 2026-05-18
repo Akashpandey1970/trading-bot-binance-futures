@@ -1,0 +1,40 @@
+2026-05-19 00:41:04,462 - trading_bot - ERROR - API credentials missing from environment.
+2026-05-19 00:44:50,811 - trading_bot - ERROR - Failed initialization: Invalid header value b'AVhgm9Q67Ea4QwL4tUKG80lYtVI8L3o3hjbrK33ZeqQ8Psc7VOgSsrkpPR3kVrjs\n'
+2026-05-19 00:45:05,688 - trading_bot - ERROR - Failed initialization: Invalid header value b'AVhgm9Q67Ea4QwL4tUKG80lYtVI8L3o3hjbrK33ZeqQ8Psc7VOgSsrkpPR3kVrjs\n'
+2026-05-19 00:48:53,682 - trading_bot - INFO - Binance Futures Testnet Client successfully established.
+2026-05-19 00:48:53,682 - trading_bot - INFO - Sending API Payload: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': 0.01, 'price': '30000.0', 'timeInForce': 'GTC'}
+2026-05-19 00:48:54,188 - trading_bot - ERROR - API Error Code -1021: Timestamp for this request is outside of the recvWindow.
+2026-05-19 00:52:22,357 - trading_bot - INFO - Binance Futures Testnet Client successfully established.
+2026-05-19 00:52:22,358 - trading_bot - INFO - Sending API Payload: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': 0.01, 'recvWindow': 60000, 'price': '30000.0', 'timeInForce': 'GTC'}
+2026-05-19 00:52:22,847 - trading_bot - ERROR - API Error Code -1021: Timestamp for this request is outside of the recvWindow.
+2026-05-19 00:53:41,617 - trading_bot - INFO - Synchronizing local client clock with Binance Futures Testnet Server...
+2026-05-19 00:53:42,116 - trading_bot - INFO - Clock synchronization complete. Applied Offset: 9602ms
+2026-05-19 00:53:42,116 - trading_bot - INFO - Binance Futures Testnet Client successfully established.
+2026-05-19 00:53:42,116 - trading_bot - INFO - Sending API Payload: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': 0.01, 'recvWindow': 60000, 'price': '30000.0', 'timeInForce': 'GTC'}
+2026-05-19 00:53:42,302 - trading_bot - INFO - Execution Successful. Server Response: {'orderId': 13157694241, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ9ed77294d9f0c000178479', 'price': '30000.00', 'avgPrice': '0.00', 'origQty': '0.0100', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1779132231894}
+2026-05-19 01:00:02,821 - trading_bot - INFO - Synchronizing local client clock with Binance Futures Testnet Server...
+2026-05-19 01:00:03,471 - trading_bot - INFO - Clock synchronization complete. Applied Offset: 9561ms
+2026-05-19 01:00:03,471 - trading_bot - INFO - Binance Futures Testnet Client successfully established.
+2026-05-19 01:00:31,175 - trading_bot - INFO - Sending API Payload: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': 0.01, 'recvWindow': 60000, 'price': '40000.0', 'timeInForce': 'GTC'}
+2026-05-19 01:00:31,418 - trading_bot - INFO - Execution Successful. Server Response: {'orderId': 13157718116, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJe9b1d3c7506f9e55c76bc3', 'price': '40000.00', 'avgPrice': '0.00', 'origQty': '0.0100', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1779132640965}
+2026-05-19 01:04:25,750 - trading_bot - INFO - Synchronizing local client clock with Binance Futures Testnet Server...
+2026-05-19 01:04:26,306 - trading_bot - INFO - Clock synchronization complete. Applied Offset: 9613ms
+2026-05-19 01:04:26,306 - trading_bot - INFO - Binance Futures Testnet Client successfully established.
+2026-05-19 01:06:34,175 - trading_bot - INFO - Sending API Payload: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'recvWindow': 60000}
+2026-05-19 01:06:34,381 - trading_bot - INFO - Execution Successful. Server Response: {'orderId': 13157738419, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ13e00b52bfa0ce4c38279b', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0100', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1779133003967}
+2026-05-19 01:08:20,976 - trading_bot - INFO - Synchronizing local client clock with Binance Futures Testnet Server...
+2026-05-19 01:08:21,525 - trading_bot - INFO - Clock synchronization complete. Applied Offset: 9619ms
+2026-05-19 01:08:21,527 - trading_bot - INFO - Binance Futures Testnet Client successfully established.
+2026-05-19 01:08:45,467 - trading_bot - INFO - Sending API Payload: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': 0.2, 'recvWindow': 60000, 'price': '20000.0', 'timeInForce': 'GTC'}
+2026-05-19 01:08:45,642 - trading_bot - INFO - Execution Successful. Server Response: {'orderId': 13157747073, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ66d4f7eaaa7b42b0725ccb', 'price': '20000.00', 'avgPrice': '0.00', 'origQty': '0.2000', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1779133135262}
+2026-05-19 01:09:17,330 - trading_bot - INFO - Sending API Payload: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.2, 'recvWindow': 60000, 'price': '20000.0', 'timeInForce': 'GTC'}
+2026-05-19 01:09:17,504 - trading_bot - ERROR - API Error Code -4024: Limit price can't be lower than 72879.16.
+2026-05-19 01:09:28,177 - trading_bot - INFO - Sending API Payload: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.2, 'recvWindow': 60000, 'price': '2000.0', 'timeInForce': 'GTC'}
+2026-05-19 01:09:28,394 - trading_bot - ERROR - API Error Code -4024: Limit price can't be lower than 72884.10.
+2026-05-19 01:09:29,197 - trading_bot - INFO - Sending API Payload: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.2, 'recvWindow': 60000, 'price': '2000.0', 'timeInForce': 'GTC'}
+2026-05-19 01:09:29,369 - trading_bot - ERROR - API Error Code -4024: Limit price can't be lower than 72884.10.
+2026-05-19 01:15:31,059 - trading_bot - INFO - Synchronizing local client clock with Binance Futures Testnet Server...
+2026-05-19 01:15:31,957 - trading_bot - INFO - Clock synchronization complete. Applied Offset: 9594ms
+2026-05-19 01:15:31,958 - trading_bot - INFO - Binance Futures Testnet Client successfully established.
+2026-05-19 01:16:00,380 - trading_bot - INFO - Sending API Payload: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'MARKET', 'quantity': 0.01, 'recvWindow': 60000}
+2026-05-19 01:16:00,587 - trading_bot - INFO - Execution Successful. Server Response: {'orderId': 13157775246, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ87dae86443b947dbe5cd42', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0100', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1779133570184}
